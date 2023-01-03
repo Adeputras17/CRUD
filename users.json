@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "638639d75ee242269e6d2275"
+  },
+  "name": "laptop",
+  "price": 400000,
+  "stock": 20,
+  "status": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6387734f505759e0708ae4a7"
+  },
+  "name": "mouse",
+  "price": 25000,
+  "stock": 12,
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "638773f9505759e0708ae4aa"
+  },
+  "name": "handphone",
+  "price": 1000000,
+  "stock": 12,
+  "status": false,
+  "__v": 0
+}]

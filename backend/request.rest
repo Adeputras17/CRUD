@@ -1,0 +1,33 @@
+GET http://localhost:4000/users
+
+###
+
+GET http://localhost:4000/users/63863a7f5ee242269e6d2279
+
+###
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+    "name" : "ka gun",
+    "price" : 400000,
+    "stock": 20,
+    "status": "true"
+}
+
+###
+PATCH  http://localhost:4000/users/63863a7f5ee242269e6d2279
+Content-Type: application/json
+
+{
+    "name" : "MOUSE",
+    "price" : 100000,
+    "stock": 10,
+    "status": "true"
+}
+
+###
+DELETE http://localhost:4000/users/638639e15ee242269e6d2277
+
+###
+GET http://localhost:4000/
